@@ -59,8 +59,33 @@ footer a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero img {
+.hero {
+    position: relative;
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+
+.img {
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .img_happy {
+    width: 100%;
+    height: auto;
+
+    align-content:right;
+    margin-left: 0;
+    margin-right: 0;
+
+
+
   }
