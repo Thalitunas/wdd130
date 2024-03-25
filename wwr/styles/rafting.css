@@ -89,3 +89,23 @@ footer a:hover {
 
 
   }
+
+  .centered {
+    position: absolute;
+    left: 10%;
+    background-color: rgba(29, 25, 252, 0.7);
+    width: 80%; 
+    margin-top: 30px;  
+    display: flex;
+   
+
+  }
+
+  .TopTextBanner {
+    position: absolute;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 10%; 
+    width: 100%; 
+    margin-top: 0;  
+  }
