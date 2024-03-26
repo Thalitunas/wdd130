@@ -16,6 +16,12 @@
     --nav-hover-backgound-color: #34693e;
    }
 
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 header a {
    
     display: block;
@@ -31,7 +37,7 @@ h1, h2 {
 }
 
 p {
-    padding: 25px;
+    padding: 15px;
 }
 
 nav a {
@@ -61,6 +67,7 @@ footer a:hover {
 
 .hero {
     position: relative;
+   
 
 }
 
@@ -70,42 +77,77 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
+ 
   }
 
-.img {
-    display: block;
-    width: 100%;
-    height: auto;
+  .hero img {
+    width: 100%; 
   }
 
-  .img_happy {
-    width: 100%;
-    height: auto;
-
-    align-content:right;
-    margin-left: 0;
-    margin-right: 0;
-
-
+  .TopTextBanner {
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 10%; 
+    width: 100%; 
+    margin-top: 0;  
+ 
 
   }
+.TopTextBanner h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 
   .centered {
     position: absolute;
-    left: 10%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(29, 25, 252, 0.7);
+    height: 35%; 
     width: 80%; 
-    margin-top: 30px;  
+    margin-top: 0;  
     display: flex;
    
 
   }
 
-  .TopTextBanner {
-    position: absolute;
-    top: 100px;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 10%; 
-    width: 100%; 
-    margin-top: 0;  
+
+  .centered p {
+    
+    color: white;
+    font-size: 14px;
   }
+  .centered img{
+    width: 30%; 
+    display: table; 
+    margin: 20px
+    
+  }
+
+  .img-rapids{
+    width: 100%; 
+   
+
+  }
+  .img-rapids img {
+    width: 80%;
+  }
+
+  .footer section {
+    display: flex;
+margin-bottom: 10px;
+  }
+
+
+  .header img{
+    width: 20%;
+  }
+
+  h3, h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+ 
