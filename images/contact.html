@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Estilos para o layout da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .employee-profile {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .employee-profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .employee-profile p {
+            font-size: 14px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="./">Home</a>
+        <a href="about.html">About us</a>
+        <a href="trips.html">Trips</a>
+        <a class="current" href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <h2>Our Team</h2>
+        <div class="employee-profile">
+            <div>
+                <img src="images/worker1.jpg" alt="Profile 1">
+                <p>John Doe<br>CEO</p>
+            </div>
+            <div>
+                <img src="images/worker2.jpg" alt="Profile 2">
+                <p>Jane Smith<br>Marketing Manager</p>
+            </div>
+        </div>
+        
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>©2024 Thalita Rapids</p>
+    </footer>
+</body>
+</html>
