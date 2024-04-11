@@ -16,6 +16,12 @@
     --nav-hover-backgound-color: #34693e;
    }
 
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 header a {
    
     display: block;
@@ -24,14 +30,14 @@ header a {
     padding: 1rem;
 }
 
- h2 {
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 
 }
 
 p {
-    padding: 25px;
+    padding: 15px;
 }
 
 nav a {
@@ -61,6 +67,7 @@ footer a:hover {
 
 .hero {
     position: relative;
+   
 
 }
 
@@ -70,68 +77,77 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
+ 
   }
 
-.img {
-    display: block;
-    width: 100%;
-    height: auto;
+  .hero img {
+    width: 100%; 
   }
 
-  .img_happy {
-    width: 100%;
-    height: auto;
+  .TopTextBanner {
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 10%; 
+    width: 100%; 
+    margin-top: 0;  
+ 
 
-    align-content:right;
-    margin-left: 0;
-    margin-right: 0;
+  }
+.TopTextBanner h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(29, 25, 252, 0.7);
+    height: 35%; 
+    width: 80%; 
+    margin-top: 0;  
+    display: flex;
+   
 
   }
 
-  header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
-}
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
-}
+  .centered p {
+    
+    color: white;
+    font-size: 14px;
+  }
+  .centered img{
+    width: 30%; 
+    display: table; 
+    margin: 20px
+    
+  }
 
-h1 {
-	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
-}
+  .img-rapids{
+    width: 100%; 
+   
 
-nav {
-	text-align: right;
-}
+  }
+  .img-rapids img {
+    width: 80%;
+  }
 
-.navigation {
-	display: flex;
-	list-style: none;
-}
+  .footer section {
+    display: flex;
+margin-bottom: 10px;
+  }
 
-.navigation li {
-	flex: 1 1 100%;
-}
 
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-}
+  .header img{
+    width: 20%;
+  }
 
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
+  h3, h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+ 
